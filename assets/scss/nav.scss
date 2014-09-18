@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+// .navbar {
+//     padding: 0 0 0 10px;
+// }
+.navBg {
+    background-color: #8430a6;
+    border-bottom: 1px solid #780384; 
+    margin: 0 0 40px 0;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+.navbar-default {
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    @include border-radius(0px); 
+}
+.navbar-default .navbar-nav > li > a {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0px 10px 0 0;
+    padding: 14px 20px 10px 20px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ffffff;
+    border-bottom: 4px solid #ff1df4;
+}
+.navbar-default .navbar-nav > li > a.current {
+    color: #ffffff;
+    border-bottom: 4px solid #ff1df4;
+    /* padding-bottom: 14px; */
+}
+.navbar-default .navbar-nav .upgradeNav a:hover {
+    color: #3fae29;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}

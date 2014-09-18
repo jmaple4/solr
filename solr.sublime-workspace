@@ -1,0 +1,404 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"none"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"icon-ch",
+				"icon-check-2"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"em",
+				"emailPreview"
+			],
+			[
+				"email",
+				"emailContainer"
+			],
+			[
+				"t",
+				"tbody	Tag"
+			],
+			[
+				"th",
+				"thead	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 9902,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Chrome-preview.sublime-build",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"th",
+				"Snippet: html"
+			],
+			[
+				"h",
+				"HTMLPrettify"
+			],
+			[
+				"hr",
+				"HTMLPrettify"
+			],
+			[
+				"htl",
+				"HTMLPrettify"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: mySnippets"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nkovacevich/Dropbox/Design Assets/Git Projects/Team-Super-Awesome/app/index.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/Git Projects/Team-Super-Awesome/app/styles/custom.scss",
+		"/Users/nkovacevich/Dropbox/Design Assets/Git Projects/Team-Super-Awesome/app/styles/main.scss",
+		"/Users/nkovacevich/Dropbox/SKA_Master-Files/Sign Up Forms/version_0002/4. Validate/2. Prototyping/assets/scss/custom.scss",
+		"/Users/nkovacevich/Dropbox/SKA_Master-Files/Sign Up Forms/version_0002/4. Validate/2. Prototyping/elements.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/7-Software & Tools/bootstrap/VR-Version/v2/assets/css/custom.css",
+		"/Users/nkovacevich/Dropbox/SKA_Master-Files/AutoResponders/4. Validation/2. Prototypes/v1/ar-success.html",
+		"/Users/nkovacevich/Dropbox/SKA_Master-Files/Sign Up Forms/version_0002/4. Validate/2. Prototyping/assets/css/custom.css",
+		"/Users/nkovacevich/Dropbox/Design Assets/7-Software & Tools/bootstrap/VR-Version/v2/assets/scss/custom.scss",
+		"/Users/nkovacevich/Dropbox/SKA_Master-Files/Sign Up Forms/version_0002/4. Validate/2. Prototyping/config.rb",
+		"/Users/nkovacevich/Dropbox/SKA_Master-Files/Sign Up Forms/version_0002/4. Validate/2. Prototyping/vr-bootstrap.sublime-project",
+		"/Users/nkovacevich/Dropbox/Design Assets/Git Projects/TeamSuperAwesome/config.rb",
+		"/Users/nkovacevich/Dropbox/Design Assets/Git Projects/TeamSuperAwesome/assets/scss/config.rb",
+		"/Users/nkovacevich/Dropbox/Design Assets/Git Projects/TeamSuperAwesome/assets/css/custom.css",
+		"/Users/nkovacevich/Dropbox/Design Assets/Git Projects/TeamSuperAwesome/assets/scss/custom.scss",
+		"/Users/nkovacevich/Dropbox/Design Assets/Git Projects/TeamSuperAwesome/index.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/7-Software & Tools/bootstrap/VR-Version/v2/ar-success.html",
+		"/Users/nkovacevich/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/A6C014D2-9D10-4F86-B0BD-F44721CB1197/Archive/litmus.html",
+		"/Users/nkovacevich/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/A6C014D2-9D10-4F86-B0BD-F44721CB1197/Archive/vr-classic.html",
+		"/Users/nkovacevich/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/A6C014D2-9D10-4F86-B0BD-F44721CB1197/Archive/marketo.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/13-Email/2014 Conference/advanced-workshop-files/advanced_workshop_files/2_final_template_unstyled.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/broken email tests/colleen-litmus.html",
+		"/Users/nkovacevich/Library/Application Support/Sublime Text 2/Packages/User/Chrome-preview.sublime-build",
+		"/Users/nkovacevich/Dropbox/Design Assets/13-Email/2014 Conference/advanced-workshop-files/advanced_workshop_files/3_final_template_styled.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/13-Email/2014 Conference/advanced-workshop-files/advanced_workshop_files/2_css_styling/8c.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/13-Email/2014 Conference/advanced-workshop-files/advanced_workshop_files/1_final_template_starting_point.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-query-success.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-3.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/Styleguide/prototypes/v2/styleguide-2-code-reformat.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/assets/css/custom.css",
+		"/Users/nkovacevich/Dropbox/SKA_Master-Files/PAYG/Code & Prototypes/v6/assets/js/custom.js",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/home.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/lists-detail.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-reports-success.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-messages-1.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-query-2.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-reports-1.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/messages-detail.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/messages.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setings-bkup.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setings-new.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setings.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/settings.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-1-old.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-1-success-authorize.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-1-success-new.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-1.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-2.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-4.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-completed-bkup.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-completed.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-initial.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/campaign-detail.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/campaigns.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-query-1.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-uploads-1.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-uploads-2.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/home-bkup.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/home-new.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/setup-3-success.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-messages-success.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2/contacts-campaigns-1.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/Table Data/message-opens.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/Post_GA_Reseller/prototypes/admin/v1/index.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/VR/Post_GA_Reseller/prototypes/admin/v1/assets/css/styleguide.css",
+		"/Users/nkovacevich/Library/Application Support/Sublime Text 2/Packages/User/mySnippets",
+		"/Users/nkovacevich/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/nkovacevich/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/nkovacevich/Dropbox/Design Assets/Websites/Pacific Cafe/index.html",
+		"/Users/nkovacevich/Dropbox/Design Assets/Websites/Pacific Cafe/assets/css/custom.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<open files>,/Users/nkovacevich/Dropbox/Design Assets/VR/SFDC/code/v2",
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"border",
+			"brandon_light",
+			"assets/img/",
+			"=\"../",
+			"assets/img/",
+			"img/",
+			"3",
+			"emailArticles",
+			"<link href=\"assets/css/custom.css\" rel=\"stylesheet\">\n    <!--[if lt IE 9]>",
+			"New Products Launch",
+			"https://vr2.verticalresponse.com/emails/4398046515519?contact_id=4398048527746&from_email=false&sk=aUoAB2JgEjBKGOq9QAPsF5AUV",
+			"Jul 10, 2014",
+			"Goto line",
+			"gotoline"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../img/",
+			"<link href=\"assets/css/custom.css\" rel=\"stylesheet\">\n    <link rel=\"stylesheet\" href=\"http://i.icomoon.io/public/b82cee61ad/standardIconSet/style.css\">\n    <!--[if lt IE 9]>",
+			"<link href=\"assets/css/custom.css\" rel=\"stylesheet\">\n    <!--[if lt IE 9]>",
+			"<a href=\"\" >https://vr2.verticalresponse.com/emails/4398046515519?contact_id=4398048527746&from_email=false&sk=aUoAB2JgEjBKGOq9QAPsF5AUV</a>",
+			"https://vr2.verticalresponse.com/emails/4398046515519?contact_id=4398048527746&from_email=false&sk=aUoAB2JgEjBKGOq9QAPsF5AUV"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "solr.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

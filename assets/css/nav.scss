@@ -1,0 +1,192 @@
+@charset "UTF-8";
+ body {
+    padding-top: 90px;
+}
+.navbar {
+    padding: 0 0 0 10px;
+    min-height: 40px;
+}
+.navbar-default {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #780384;
+}
+.navbar-brand {
+    max-width: 200px;
+    padding: 15px;
+    margin: 0 40px 0 0;
+}
+.navbar-brand img {
+    max-height: 40px;
+    width: auto;
+}
+.navbar-default .navbar-nav > li > a {
+    line-height: 24px;
+    font-family: 'brandon_light';
+    font-size: 24px;
+    color: #818181;
+    margin: 0px 10px 0 0;
+    padding: 20px 10px;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #8430a6;
+    border-bottom: 2px solid #8430a6;
+    padding-bottom: 18px;
+    background: #f9f9f9;
+}
+.navbar-default .navbar-nav > li > a.current {
+    color: #8430a6;
+    border-bottom: 4px solid #8430a6;
+    padding-bottom: 16px;
+}
+.navbar-default .navbar-nav .upgradeNav a:hover {
+    color: #3fae29;
+}
+.accountIcons {
+    padding: 0px!important;
+    margin: 10px;
+}
+.navbar-nav > li > .accountIcons:hover {
+    background: transparent!important;
+}
+.accountInfo {
+    background: #8430A6;
+    color: #FFF;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.navbar-nav > li > .dropdown-menu, .dropdown-menu {
+    width: 300px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    border: 1px solid #8430A6;
+    border-radius: 6px;
+}
+.dropdown-menu:before {
+    content: '';
+    display: inline-block;
+    border-left: 12px solid rgba(0, 0, 0, 0);
+    border-right: 12px solid rgba(0, 0, 0, 0);
+    border-bottom: 12px solid #CCC;
+    border-bottom-color: #8430A6;
+    position: absolute;
+    top: -12px;
+    right: 32px;
+}
+.accountNav .dropdown-menu:before {
+    right: 32px;
+}
+.helpNav .dropdown-menu:before {
+    right: 21px;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}
+.dropdown-menu > li > a {
+    padding: 5px 20px 5px;
+    white-space: normal;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #8430A6;
+    background-color: #F5F5F5;
+}
+.dropdown-menu > li > .logOut {
+    text-align: right;
+}
+.dropdown-menu > li:last-child > a {
+    border-radius: 0 0 5px 5px;
+}
+.dropdown-menu .divider {
+    margin: 0;
+}
+.dropdown-menu .userId, .dropdown-menu .acountSummary {
+    display: block;
+    padding: 5px 20px 0px;
+}
+.dropdown-menu .userId {
+    padding: 5px 20px 0px;
+    font-family: 'brandon_grotesque', sans-serif;
+    font-size: 16px;
+}
+.dropdown-menu .acountSummary {
+    padding: 0px 20px 5px;
+}
+.helpTitle {
+    display: block;
+    padding: 5px 20px 5px;
+    background: #8430A6;
+    color: #FFF;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+/* Showing current state for Profile and upgrade btns */
+
+.upgradePage .upgradeNav a, .profilePage .accountNav a.dropdown-toggle {
+    padding-bottom: 4px;
+}
+.profilePage .accountNav a.dropdown-toggle {
+    border-bottom: 4px solid #8430A6;
+}
+.upgradePage .upgradeNav a {
+    border-bottom: 4px solid #3fae29;
+}
+.upgradePage .navbar-right > .upgradeNav > a .icon-nav-icon-upgrade {
+    color: #3fae29;
+}
+.profilePage .navbar-right > .accountNav > a .icon-nav-icon-user {
+    color: #8430A6;
+}
+.upgradePage .navbar-default .navbar-nav .upgradeNav a .iconText {
+    color: #3fae29;
+}
+.profilePage .navbar-default .navbar-nav .accountNav a .iconText {
+    color: #8430A6;
+}
+/* Alerts dropdown styling */
+
+.alertListName {
+    font-weight: bold;
+    color: #8430A6;
+}
+.dropdown-menu li {
+    position: relative;
+}
+.alertNav .dropdown-menu > li > a {
+    padding: 5px 30px 5px;
+}
+.alertNav .dropdown-menu .success a:before {
+    content: "\f00c";
+    font-size: 12px;
+    color: #3FAE29;
+    display: inline-block;
+    font-family: icomoon;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.alertNav .dropdown-menu .success a:after {
+    content: "\f057";
+    font-size: 18px;
+    color: #E0E0E0;
+    display: inline-block;
+    font-family: icomoon;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.alertNav .dropdown-menu .success a:hover:after {
+    color: #B9B9B9;
+}
+.alertNav .dropdown-menu .error a:before {
+    content: "\f06a";
+    font-size: 12px;
+    color: #3FAE29;
+    display: inline-block;
+    font-family: icomoon;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.alertNav .dropdown-menu > .read > a, .alertNav .dropdown-menu .read a:before, .alertNav .dropdown-menu > .read > a .alertListName {
+    color: #CCCCCC;
+}
