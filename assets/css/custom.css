@@ -1,7 +1,13 @@
 .navBg {
-  background-color: #8430a6;
   border-bottom: 1px solid #780384;
-  margin: 0 0 40px 0;
+  margin: 0;
+  background: #8430a6;
+  background: -moz-linear-gradient(45deg, #8430a6 0%, #9b3180 100%);
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #8430a6), color-stop(100%, #9b3180));
+  background: -webkit-linear-gradient(45deg, #8430a6 0%, #9b3180 100%);
+  background: -o-linear-gradient(45deg, #8430a6 0%, #9b3180 100%);
+  background: -ms-linear-gradient(45deg, #8430a6 0%, #9b3180 100%);
+  background: linear-gradient(45deg, #8430a6 0%, #9b3180 100%);
 }
 
 .navbar {
@@ -23,10 +29,14 @@
 .navbar-default .navbar-nav > li > a {
   font-family: arial, sans-serif;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 18px;
   color: #FFFFFF;
   margin: 0px 10px 0 0;
   padding: 14px 20px 10px 20px;
+}
+.navbar-default .navbar-nav > li > a i {
+  color: #F66FD4;
+  font-size: 18px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -49,7 +59,7 @@
 }
 
 body {
-  color: #333;
+  color: #444444;
 }
 
 @font-face {
@@ -92,15 +102,15 @@ button {
 }
 
 h1 {
-  font-size: 43px;
+  font-size: 50px;
   margin: 0px 0 20px 0;
   font-family: 'helvetica_thin', helvetica, arial, sans-serif;
-  color: #666c6f;
+  color: #00a4ff;
   font-weight: normal;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 0px 0 20px 0;
   font-family: 'helvetica_thin', helvetica, arial, sans-serif;
   color: #444444;
@@ -474,4 +484,138 @@ label {
 
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a i.check-mark {
   margin-top: 6.5px;
+}
+
+.heroBlock {
+  background-color: #CCCCCC;
+  width: 100%;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  height: 263px;
+  position: relative;
+}
+.heroBlock .logoBranding {
+  display: block;
+  background: url(../img/logo-color-lg.png) no-repeat top left;
+  text-indent: -9999px;
+  width: 404px;
+  height: 109px;
+  background-size: 404px 109px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.tourBlock {
+  background-color: #62005a;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 0 0 0;
+}
+.tourBlock h3 {
+  font-family: 'helvetica_thin' arial, sans-serif;
+  font-size: 24px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+  color: #efb9ff;
+}
+.tourBlock .btn-primaryAction {
+  background: #da2bff;
+  font-size: 14px;
+}
+.tourBlock .btn-primaryAction:hover {
+  background: #ae09d6;
+}
+
+.footer {
+  width: 100%;
+  padding: 40px 0 20px 0;
+  background: url(../img/footer-bg.svg) repeat;
+  background-size: 90px 78px;
+  color: #FFFFFF;
+}
+.footer p {
+  color: #d0b4d1;
+}
+.footer h5 {
+  font-family: 'helvetica_thin' arial, sans-serif;
+  font-size: 18px;
+  color: #fa9fff;
+}
+.footer .majorLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer .majorLinks li {
+  font-family: 'helvetica_thin' arial, sans-serif;
+  /* font-size: 18px;
+  line-height: 24px; */
+  margin: 0 0 10px 0;
+  padding: 0;
+  color: #e1ccff;
+  position: relative;
+}
+.footer .majorLinks li a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #e1ccff;
+}
+.footer .majorLinks li a span {
+  font-size: 18px;
+  /* line-height: 24px; */
+  position: relative;
+  bottom: 4px;
+  padding-left: 5px;
+}
+.footer .majorLinks li i {
+  font-size: 24px;
+  line-height: 24px;
+  color: #8d839e;
+}
+.footer .siteLinks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer .siteLinks li {
+  font-family: 'helvetica_thin' arial, sans-serif;
+  /* font-size: 18px;
+  line-height: 24px; */
+  margin: 0;
+  padding: 0;
+  color: #e1ccff;
+  display: inline-block;
+  width: 49%;
+}
+.footer .siteLinks li a {
+  padding: 6px 0;
+  display: block;
+  font-size: 14px;
+  line-height: 14px;
+  color: #e1ccff;
+}
+
+.featureImg {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  margin: 0 auto 40px auto;
+}
+
+.media i {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.media-heading {
+  font-size: 31px;
+  line-height: 36px;
+  font-family: 'helvetica_thin' arial, sans-serif;
+  color: #444444;
 }

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "compass";  
 @mixin border-radius($x) {
     -webkit-border-radius: $x;
     -moz-border-radius: $x;
@@ -16,7 +17,7 @@
 // @include box-shadow(0, 0, 5px, rgba(0, 0, 0, 0.10), inset); <-- with inset
 @import "nav.scss";
 body {
-    color: #333;
+    color: #444444;
 }
 @font-face {
     font-family: 'helvetica_thin';
@@ -55,14 +56,14 @@ button {
     margin: 0 10px 0 0;
 }
 h1 {
-    font-size: 43px;
+    font-size: 50px;
     margin: 0px 0 20px 0;
     font-family: 'helvetica_thin', helvetica, arial, sans-serif;
-    color: #666c6f;
+    color: #00a4ff;
     font-weight: normal;
 }
 h3 {
-    font-size: 24px;
+    font-size: 30px;
     margin: 0px 0 20px 0;
     font-family: 'helvetica_thin', helvetica, arial, sans-serif;
     color: #444444;
@@ -386,4 +387,132 @@ label {
 }
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a i.check-mark {
     margin-top: 6.5px;
+}
+.heroBlock {
+    background-color: #CCCCCC;
+    width: 100%;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    height: 263px;
+    position: relative;
+    .logoBranding {
+        display: block;
+        background: url(../img/logo-color-lg.png) no-repeat top left;
+        text-indent: -9999px;
+        width: 404px;
+        height: 109px;
+        background-size: 404px 109px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+.tourBlock {
+    background-color: #62005a;
+    width: 100%;
+    padding: 20px;
+    margin: 20px 0 0 0;
+
+    h3 {
+        font-family: 'helvetica_thin' arial, sans-serif;
+        font-size: 24px;
+        line-height: 40px;
+        margin: 0;
+        padding: 0;
+        color: #efb9ff;
+    }
+    .btn-primaryAction {
+        background: #da2bff;
+        font-size: 14px;
+
+        &:hover{
+            background: #ae09d6;
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    padding: 40px 0 20px 0;
+    background: url(../img/footer-bg.svg) repeat;
+    background-size: 90px 78px;
+    color: #FFFFFF;
+    p {
+        color: #d0b4d1;
+    }
+    h5 {
+        font-family: 'helvetica_thin' arial, sans-serif;
+        font-size: 18px;
+        color: #fa9fff;
+    }
+    .majorLinks {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            font-family: 'helvetica_thin' arial, sans-serif;
+            /* font-size: 18px;
+            line-height: 24px; */
+            margin: 0 0 10px 0;
+            padding: 0;
+            color: #e1ccff; 
+            position: relative;
+            a {
+                font-size: 18px;
+                line-height: 24px;
+                color: #e1ccff; 
+            span {
+                font-size: 18px;
+                /* line-height: 24px; */ 
+                position: relative;
+                bottom: 4px;
+                padding-left: 5px;
+                }  
+            }
+            i {
+                font-size: 24px;
+                line-height: 24px;
+                color: #8d839e;
+
+            }
+        }
+    }
+    .siteLinks {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            font-family: 'helvetica_thin' arial, sans-serif;
+            /* font-size: 18px;
+            line-height: 24px; */
+            margin: 0;
+            padding: 0;
+            color: #e1ccff; 
+            display: inline-block;
+            width: 49%;
+            a {
+                padding: 6px 0;
+                display: block;
+                font-size: 14px;
+                line-height: 14px;
+                color: #e1ccff; 
+            }
+        }
+    }
+}
+.featureImg {
+    @include border-radius(6px);
+    margin: 0 auto 40px auto;
+}
+.media i {
+    font-size: 36px;
+    line-height: 36px;
+}
+.media-heading {
+    font-size: 31px;
+    line-height: 36px;
+    font-family: 'helvetica_thin' arial, sans-serif;
+    color: #444444;
 }

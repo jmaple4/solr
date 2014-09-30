@@ -7,47 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>VR</title>
+    <title>solr</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="http://i.icomoon.io/public/b82cee61ad/solr/style.css">
     <link href="assets/css/custom.css" rel="stylesheet">
 </head>
 
 <body>
-<div class="navBg">
-<div class="container-fluid">
-<div class="row">
-    <div class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#" class="current">Home</a></li>
-                    <li><a href="#">Amenities</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Rooms</a></li>
-                    <li><a href="#">Location</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Schedule Tour</a></li>
-                    <li><a href="#">Request Application</a></li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div><!-- container -->
-    </div>
-    </div><!-- /row -->
-</div><!-- /container -->
-</div><!-- /navBg -->
+    <?php include 'assets/includes/nav.php';?>
 
     <div class="container">
-
         <div class="row">
             <div class="col-xs-12">
                 <h1>Page Title</h1>
@@ -123,9 +92,7 @@
         <!-- /row -->
     </div>
     <!-- /.container -->
-
-    <script src="assets/js/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <?php include 'assets/includes/footer.php';?>
 </body>
 
 </html>

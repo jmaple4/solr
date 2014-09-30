@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'border-radius'.
-        on line 19 of /Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss, in `border-radius'
-        from line 19 of /Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss
+        on line 29 of /Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss, in `border-radius'
+        from line 29 of /Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss
 
-14: }
-15: .navbar-default {
-16:     color: #FFFFFF;
-17:     background: transparent;
-18:     border: none;
-19:     @include border-radius(0px); 
-20: }
-21: .navbar-default .navbar-nav > li > a {
-22:     font-family: arial, sans-serif;
-23:     font-size: 16px;
-24:     line-height: 16px;
+24: }
+25: .navbar-default {
+26:     color: #FFFFFF;
+27:     background: transparent;
+28:     border: none;
+29:     @include border-radius(0px);
+30: }
+31: .navbar-default .navbar-nav > li > a {
+32:     font-family: arial, sans-serif;
+33:     font-size: 16px;
+34:     line-height: 18px;
 
 Backtrace:
-/Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss:19:in `border-radius'
-/Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss:19
+/Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss:29:in `border-radius'
+/Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss:29
 /Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/tree/visitors/perform.rb:332:in `visit_mixin'
 /Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/stack.rb:98:in `with_mixin'
 /Applications/compass.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/stack.rb:115:in `with_frame'
@@ -73,4 +73,4 @@ org/jruby/RubyProc.java:271:in `call'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'border-radius'.\A         on line 19 of /Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss, in `border-radius'\A         from line 19 of /Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss\A \A 14: }\A 15: .navbar-default {\A 16:     color: #FFFFFF;\A 17:     background: transparent;\A 18:     border: none;\A 19:     @include border-radius(0px); \A 20: }\A 21: .navbar-default .navbar-nav > li > a {\A 22:     font-family: arial, sans-serif;\A 23:     font-size: 16px;\A 24:     line-height: 16px;"; }
+  content: "Error: Undefined mixin 'border-radius'.\A         on line 29 of /Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss, in `border-radius'\A         from line 29 of /Users/nkovacevich/Dropbox/Design Assets/Git Projects/solr/assets/scss/nav.scss\A \A 24: }\A 25: .navbar-default {\A 26:     color: #FFFFFF;\A 27:     background: transparent;\A 28:     border: none;\A 29:     @include border-radius(0px);\A 30: }\A 31: .navbar-default .navbar-nav > li > a {\A 32:     font-family: arial, sans-serif;\A 33:     font-size: 16px;\A 34:     line-height: 18px;"; }
