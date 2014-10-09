@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Come take a trip back in time to the summer of 1967, when gentle people with flowers in their hair reigned in the City by the Bay. The Summer of Love theme of the Residences embraces the youth, artistic impact, and message of love of 1967 with an elegance and at a price point that..." />
     <meta name="author" content="">
-    <title>solr</title>
+    <title>About</title>
     <?php include 'assets/includes/head.php';?>
 </head>
 

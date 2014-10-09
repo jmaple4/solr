@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="IN-HOUSE CLASSES Tuesdays beginning Aug. 19 6:30-8:00 PM Summer of Love Residences (Meet at room off kitchen) 875 Post Street, San Francisco Minister: Rudy Colombini A Course In Miracles is a spiritual path with a unique emphasis on relationships. To discover our own wholeness, we must uncover our oneness with other people, for..." />
     <meta name="author" content="">
-    <title>solr</title>
+    <title>sA Course in Miracles</title>
     <?php include 'assets/includes/head.php';?>
 </head>
 

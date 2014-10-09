@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="We offer a range of amenities including Free Hi Speed WiFi, Free Caffe Trieste Coffee & Espresso, Free Housekeeping and Bedding Change, Free Utilities and Purified Drinking Water, Communal Kitchen, Access to Music City Rehersal and lots more...">
     <meta name="author" content="">
-    <title>solr</title>
+    <title>Amenities</title>
     <?php include 'assets/includes/head.php';?>
 </head>
 

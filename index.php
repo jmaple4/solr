@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Low cost student housing in San Francisco, rooms and studios, shared residences, dormitory, college housing, budget housing, San Francisco"/>
     <meta name="author" content="">
-    <title>solr</title>
+    <title>Summer of Love Shared Student Housing in San Francisco</title>
     <?php include 'assets/includes/head.php';?>
 </head>
 
