@@ -5836,7 +5836,7 @@ button.close {
   position: absolute;
   bottom: 10px;
   left: 50%;
-  z-index: 15;
+  z-index: 150;
   width: 60%;
   padding-left: 0;
   margin-left: -30%;
@@ -5863,9 +5863,9 @@ button.close {
 }
 .carousel-caption {
   position: absolute;
-  right: 15%;
+  /*right: 15%;*/
   bottom: 20px;
-  left: 15%;
+  /*left: 15%;*/
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -5895,8 +5895,8 @@ button.close {
     margin-right: -15px;
   }
   .carousel-caption {
-    right: 20%;
-    left: 20%;
+    /*right: 20%;
+    left: 20%;*/
     padding-bottom: 30px;
   }
   .carousel-indicators {

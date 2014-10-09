@@ -1,7 +1,11 @@
 @charset "UTF-8";
-// .navbar {
-//     padding: 0 0 0 10px;
-// }
+@mixin border-radius($x) {
+    -webkit-border-radius: $x;
+    -moz-border-radius: $x;
+    -ms-border-radius: $x;
+    -o-border-radius: $x;
+    border-radius: $x;
+}
 .navBg {
     //background-color: #8430a6;
     border-bottom: 1px solid #780384;
@@ -48,6 +52,20 @@
     color: #ffffff;
     border-bottom: 4px solid #ff1df4;
     /* padding-bottom: 14px; */
+}
+.page-home .home,
+.page-amenities .amenities,
+.page-rooms .rooms,
+.page-about .about,
+.page-acim .acim,
+.page-location .location,
+.page-contact .contact,
+.page-tour .tour,
+.page-application .application
+
+ {
+    color: #ffffff;
+    border-bottom: 4px solid #ff1df4;
 }
 .navbar-default .navbar-nav .upgradeNav a:hover {
     color: #3fae29;

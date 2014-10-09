@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "compass";  
+//@import "compass";  
 @mixin border-radius($x) {
     -webkit-border-radius: $x;
     -moz-border-radius: $x;
@@ -30,6 +30,22 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'helvetica_bold';
+    src: url('../fonts/helvetica-bold.eot');
+    src: url('../fonts/helvetica-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica-bold.woff2') format('woff2'),
+         url('../fonts/helvetica-bold.woff') format('woff'),
+         url('../fonts/helvetica-bold.ttf') format('truetype'),
+         url('../fonts/helvetica-bold.svg#trump_gothic_eastbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-thin:  'helvetica_thin', helvetica, arial, sans-serif;
+$font-bold:  'helvetica_bold', helvetica, arial, sans-serif;
+// exmple: font-family: $font-thin;
+
 .modal-content {
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
@@ -57,15 +73,15 @@ button {
 }
 h1 {
     font-size: 50px;
-    margin: 0px 0 20px 0;
-    font-family: 'helvetica_thin', helvetica, arial, sans-serif;
+    margin: 0px 0 40px 0;
+    font-family: $font-thin;
     color: #00a4ff;
     font-weight: normal;
 }
 h3 {
     font-size: 30px;
     margin: 0px 0 20px 0;
-    font-family: 'helvetica_thin', helvetica, arial, sans-serif;
+    font-family: $font-thin;
     color: #444444;
     font-weight: normal;
 }
@@ -74,7 +90,7 @@ p {
     font-family: arial, sans-serif;
     color: #444444;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.7;
     margin: 0px 0 20px 0;
 }
 .center {
@@ -333,7 +349,7 @@ label {
     margin: 40px auto 0;
 }
 .successMessage h1 {
-    font-family: 'helvetica_thin', helvetica, arial, sans-serif;
+    font-family: $font-thin;
     font-size: 40px;
     margin: 0 0 30px 0;
 }
@@ -389,13 +405,20 @@ label {
     margin-top: 6.5px;
 }
 .heroBlock {
-    background-color: #CCCCCC;
+    /* background-color: #CCCCCC; */
     width: 100%;
-    padding: 20px;
-    margin: 0 0 20px 0;
+    padding: 0px;
+    margin: 0 0 40px 0;
     height: 263px;
     position: relative;
-    .logoBranding {
+    overflow: hidden;
+    .pageHeroImage {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    /* .logoBranding {
         display: block;
         background: url(../img/logo-color-lg.png) no-repeat top left;
         text-indent: -9999px;
@@ -407,8 +430,25 @@ label {
         position: absolute;
         top: 10px;
         right: 10px;
-    }
+    } */
 }
+.heroBlock .logoBranding,
+.carousel-inner .logoBranding {
+        display: block;
+        background: url(../img/logo-color-lg.png) no-repeat top left;
+        text-indent: -9999px;
+        width: 404px;
+        height: 109px;
+        background-size: 404px 109px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 10px;
+    }
+.heroBlock .logoBranding {right: 10px;}
+.carousel-inner .logoBranding {left: 30px;}
+.page-rooms .logoBranding,
+.page-amenities .logoBranding {left: 30px;top: 120px;}
 .tourBlock {
     background-color: #62005a;
     width: 100%;
@@ -416,7 +456,7 @@ label {
     margin: 20px 0 0 0;
 
     h3 {
-        font-family: 'helvetica_thin' arial, sans-serif;
+        font-family: $font-thin;
         font-size: 24px;
         line-height: 40px;
         margin: 0;
@@ -432,7 +472,6 @@ label {
         }
     }
 }
-
 .footer {
     width: 100%;
     padding: 40px 0 20px 0;
@@ -443,7 +482,7 @@ label {
         color: #d0b4d1;
     }
     h5 {
-        font-family: 'helvetica_thin' arial, sans-serif;
+        font-family: $font-thin;
         font-size: 18px;
         color: #fa9fff;
     }
@@ -452,7 +491,7 @@ label {
         padding: 0;
         list-style: none;
         li {
-            font-family: 'helvetica_thin' arial, sans-serif;
+            font-family: $font-thin;
             /* font-size: 18px;
             line-height: 24px; */
             margin: 0 0 10px 0;
@@ -476,6 +515,15 @@ label {
                 line-height: 24px;
                 color: #8d839e;
 
+            } 
+            .icon-connect-facebook {
+                color: #3D61DE;
+            }
+            .icon-connect-yelp {
+                color: #D71F1F;
+            }
+            .icon-connect-email {
+                color: #28A719;
             }
         }
     }
@@ -483,8 +531,9 @@ label {
         margin: 0;
         padding: 0;
         list-style: none;
+
         li {
-            font-family: 'helvetica_thin' arial, sans-serif;
+            font-family: $font-thin;
             /* font-size: 18px;
             line-height: 24px; */
             margin: 0;
@@ -499,7 +548,13 @@ label {
                 line-height: 14px;
                 color: #e1ccff; 
             }
-        }
+            
+        } 
+        &.address li {
+            width: 100%;
+            display: block;
+            margin: 0 0 5px 0;
+        }  
     }
 }
 .featureImg {
@@ -513,6 +568,274 @@ label {
 .media-heading {
     font-size: 31px;
     line-height: 36px;
-    font-family: 'helvetica_thin' arial, sans-serif;
+    margin: 0 0 10px 0;
+    font-family: $font-thin;
     color: #444444;
+}
+#myCarousel {
+    position: relative;
+    height: 265px;
+    margin-bottom: 40px;
+}
+.carousel-inner {
+    height: 265px;
+}
+.carousel-indicators li {
+    border: 2px solid #E702CB;
+}
+.carousel-control .icon-chevron-prev, .carousel-control .icon-chevron-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    z-index: 5;
+    font-size: 40px;
+    text-shadow: none;
+    display: inline-block;
+}
+.carousel-control .icon-prev, .carousel-control .icon-chevron-prev {
+    left: 10px;
+    margin-left: 0px;
+}
+.carousel-control .icon-next, .carousel-control .icon-chevron-next {
+    right: 10px;
+    margin-right: 0px;
+}
+.carousel-caption {
+    color: #000000;
+}
+/* .carousel-control .icon-prev, .carousel-control .icon-next {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    font-family: serif;
+}
+.carousel-control .icon-prev:before {
+    content: '\2039';
+}
+.carousel-control .icon-next:before {
+    content: '\203a';
+} */
+.carousel-indicators {
+  /* position: absolute; */
+  bottom: 0px;
+  /* left: 20px; */
+}
+.carousel-caption {
+    position: absolute;
+    right: 50px!important;
+    bottom: 20px;
+    z-index: 10;
+    top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: none;
+    width: 200px;
+    color: #444444;
+    h3 {
+        font-family: $font-bold;
+        color: #f43180;
+        font-size: 30px;
+    }
+    p {
+        color: #707070;
+    }
+    .price {
+        display: block;
+        font-size: 30px;
+        line-height: 24px;
+        font-family: $font-thin;
+        color: #00A32C;
+
+    }
+    .btn-primaryAction {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 10px;
+    }
+}
+.carouselHeroImage {
+    width: 100%;
+}
+
+.homeAmentitySpotlight {
+    h1 {
+        margin-bottom: 30px;
+    }
+}
+.homeAmentitySpotlight,
+.page-amenities,
+.page-about {
+    .media {
+        .media-heading {
+        font-family: $font-thin;
+        color: #444444;
+        font-size: 20px;
+        line-height: 1.2;
+
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .pull-left {
+        width: 50px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    i {
+        font-size: 44px;
+        line-height: 44px;
+    }
+    .icon-coffee {color:#ce0000;}
+    .icon-housekeeping {color:#6cce05;}
+    .icon-wifi {font-size: 33px; color:#ff6300;}
+    .icon-measuring-cup {font-size: 40px; color:#00ceba;}
+    .icon-microphone {color:#ce00a7;}
+    .icon-leaf {font-size: 40px; color:#48bf02;}
+    .icon-smile-o {font-size: 40px; color:#e200e2;}
+    .icon-bicycle {font-size: 40px; color:#6b6b6b;}
+    .icon-camera {font-size: 40px; color:#f78803;}
+    .icon-lock {font-size: 40px; color:#dd9a05;}
+    .icon-bus {font-size: 40px; color:#216d01;}
+    .icon-calendar {font-size: 40px; color:#ce3500;}
+    .icon-cube {font-size: 40px; color:#00adc4;}
+    .icon-map-marker {font-size: 40px; color:#02bcb7;}
+    .icon-paint-brush {font-size: 40px; color:#ed03f4;}
+    }
+    
+}
+.page-acim {
+    h1 {
+        margin-top: 40px;
+    }
+    .profileImg {
+        @include border-radius(6px);
+        margin: 0 0 10px 20px;
+    }
+    .media {
+        .media-heading {color: #FF8A00;}
+        img {margin-right: 20px;}
+    
+    }
+    
+}
+.homeAmentitySpotlight .media .media-heading {
+        font-size: 20px;
+}
+.moreAmenityList,
+.gardenSection {
+    h1 {
+        margin-bottom: 20px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+    li {
+        list-style: none;
+        padding: 0 0 0 20px;
+    }
+    li:before {
+        font-family: 'icomoon';
+        content: '\f00c';
+        color: #00a4ff;
+        margin-left: -20px;
+        margin-right: 5px;
+    }
+    .buttonTag {
+        color: #209b02;
+        line-height: 45px;
+        margin-right: 20px;
+    }
+    .btn-primaryAction {
+        margin-bottom: 40px;
+    }
+}
+.gardenSection {
+    h1 {
+        color:#41c106;
+    }
+    ul {
+        margin-bottom: 20px;
+    }
+    li {
+        width: 50%;
+        float: left;
+    }
+    li:before {
+        color: #41c106;
+    }
+}
+
+
+.priceBlock {
+    margin: 7px 20px 0 0;
+    float: left;
+    &.disclaimer {
+        margin-top: 2px;
+    }
+    .pricePoint {
+        color: #d34bff;
+        font-size: 30px;
+        line-height: 30px;
+        font-family: $font-thin;
+    }
+    .tag {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 1px;
+        color: #f26403;
+        text-transform: uppercase;
+        display: block;
+    }
+    .dateUnit {
+        font-size: 15px;
+        color: #929292;
+    }
+}
+.page-rooms {
+    .roomImage {
+    margin: 0 0 20px 0;
+    @include border-radius(6px);
+    }
+    .media {
+        .media-heading {
+            color: #5102b7;
+        }
+        .btn-primaryAction {
+            margin-bottom: 40px;
+        }
+    }
+}
+.googleMap {
+        position: relative;
+        padding-bottom: 500px; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+        margin-bottom: 20px;
+}
+
+.google-map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+.messageSuccess {
+    .icon-check-2, .media-heading {
+        color: #10C000;
+    }
+}
+.page-application {
+    .icon-arrow-right{
+        font-size: 14px;
+        color: #999999;
+        }
+    .buttonTag {
+        color: #209b02;
+        line-height: 45px;
+        margin-left: 20px;
+    }
 }

@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <a href="#" class="btn-primaryAction pull-right">Schedule a Tour</a>
+                    <a href="tour.php" class="btn-primaryAction pull-right">Schedule a Tour</a>
                     <h3>Interested in learning more? Why not take a tour?</h3>
                 </div>
                 <!-- /col -->
@@ -17,11 +17,21 @@
             <div class="row">
                 <div class="col-sm-3">
                     <img src="assets/img/logo-white.svg" width="167px" height="45px" />
-                    <p>875 Post Street
+                    <ul class="siteLinks address">
+                        <li>875 Post Street
+                        </li>
+                        <li>San Francisco, CA 94109
+                        </li>
+                        <li>(415) ###-####
+                        </li>
+                        <li><a href="mailto:info@solove.us">info@solove.us</a>
+                        </li>
+                        </ul>
+                    <!-- <p>875 Post Street
                         <br />San Francisco, CA 94109
                         <br />(415) ###-####
-                        <br />info@summerofloveresidences.com
-                    </p>
+                        <br /><a href="mailto:info@solove.us">info@solove.us</a>
+                    </p> -->
                 </div>
                 <!-- /col -->
                 <div class="col-sm-3">
@@ -31,7 +41,7 @@
                         </li>
                         <li><a href="#"><i class="icon-connect-yelp"></i> <span>Yelp</span></a>
                         </li>
-                        <li><a href="#"><i class="icon-connect-email"></i> <span>Email</span></a>
+                        <li><a href="mailto:info@solove.us"><i class="icon-connect-email"></i> <span>Email</span></a>
                         </li>
                     </ul>
                 </div>
@@ -42,6 +52,8 @@
                         <li><a href="#">Encore Express Hotel</a>
                         </li>
                         <li><a href="#">Music City Rehersal</a>
+                        </li>
+                        <li><a href="http://www.miracles-course.org" target="_blank">A Course In Miracles</a>
                         </li>
                     </ul>
                 </div>
@@ -75,3 +87,16 @@
 
         <script src="assets/js/jquery-1.10.2.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/holder.js"></script>
+        <script>
+        $('#myCarousel').carousel();
+        //$('.carousel-control.left').click(function() {
+        //      $('#myCarousel').carousel('prev');
+        //    });
+        //    $('.carousel-control.right').click(function() {
+        //      $('#myCarousel').carousel('next');
+        //    });
+            $('#myCarousel').on('slide.bs.carousel', function () {
+                  $('.item').removeClass('next left');
+            });
+        </script>
