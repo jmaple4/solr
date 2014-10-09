@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-xs-12">
                 <div class="heroBlock">
-                <img class="pageHeroImage img-responsive" src="assets/img/photos/room-hero.jpg" width="1024" height="263" alt="garden">
+                <img class="pageHeroImage img-responsive" src="assets/img/photos/tour-hero.jpg" width="1024" height="263" alt="tour">
                     <span class="logoBranding"></span>
                     </div><!-- /heroBlock -->
                 </div>

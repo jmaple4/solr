@@ -105,7 +105,7 @@
                 <div class="media">
                     <i class="pull-left icon-microphone"></i>
                     <div class="media-body">
-                        <h4 class="media-heading">Access to 18 Rehearsal Studios and Event Space at Music City San Francisco Nearby</h4>
+                        <h4 class="media-heading">Access to 18 Rehearsal Studios and Event Space at Music City San Francisco Nearby</h4><a href="http://musiccityrehearsal.com/" class="btn-Regular pull-right" target="_blank">Check it out</a>
                         <p>The Music City San Francisco rehearsal Studios is already a cool Venue, Event &amp; Academy sight, a place for hobbyist, students learning a new instrument or working professional musician rehearsing for their next gig, but it’s being built to be much more. Already a place with 18 well equipped rehearsal studios to handle your needs, it promises to be the place for Musicians and Artist alike to display, practice and learn more about their craft and their art. Due to be completed in 2015.</p>
                     </div> <!-- /media-body -->
                 </div><!-- /media -->

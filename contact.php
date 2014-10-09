@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-xs-12">
                 <div class="heroBlock">
-                <img class="pageHeroImage img-responsive" src="assets/img/photos/about-hero.jpg" width="1024" height="263" alt="garden">
+                <img class="pageHeroImage img-responsive" src="assets/img/photos/contact-header.jpg" width="1024" height="263" alt="garden">
                     <span class="logoBranding"></span>
                     </div><!-- /heroBlock -->
                 </div>
@@ -35,8 +35,8 @@
         <div class="row">
             <div class="col-sm-6">
             <h1>Get in touch</h1>
-                <h3><i class="icon-phone"></i> (415) ###-####</h3>
-                <h3><i class="icon-envelope-o"></i> info@sumerofloveresidences.com</h3>
+                <h3><i class="icon-phone"></i> (415) 653-6070</h3>
+                <h3><a href="mailto:info@solove.us"><i class="icon-envelope-o"></i> info@solove.us</a></h3>
             </div><!-- /col-6 -->
 
 

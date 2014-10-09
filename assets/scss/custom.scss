@@ -713,6 +713,10 @@ label {
         margin: 0 0 10px 20px;
     }
     .media {
+        padding: 20px 20px 0 20px;
+        background: #F8E7CB;
+        margin-bottom: 40px;
+        @include border-radius(6px);
         .media-heading {color: #FF8A00;}
         img {margin-right: 20px;}
     
@@ -750,6 +754,57 @@ label {
     }
     .btn-primaryAction {
         margin-bottom: 40px;
+    }
+}
+.schoolSection {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+    li {
+        list-style: none;
+        padding: 0 10px 0 20px;
+        width: 50%;
+        float: left;
+    }
+    li:before {
+        font-family: 'icomoon';
+        content: '\e617';
+        color: #00a4ff;
+        margin-left: -20px;
+        margin-right: 5px;
+    }
+}
+.busSection {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+    li {
+        list-style: none;
+        padding: 0 0 0 25px;
+        width: 50%;
+        float: left;
+        color:#216d01;
+        font-size: 20px;
+    }
+    li:before {
+        font-family: 'icomoon';
+        content: '\e613';
+        color:#216d01;
+        margin-left: -25px;
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    .directionLinks {
+        display: block;
+        font-size: 14px;
+        color: #999999;
+        a {
+            color: #005596;
+        }
     }
 }
 .gardenSection {
