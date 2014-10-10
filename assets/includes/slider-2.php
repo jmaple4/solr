@@ -33,7 +33,7 @@
               <div class="caption">
                 <h3>Garden Rooms</h3>
                 <p>Starting at<span class="price">$795</span> a month</p>
-                <p><a href="#" class="btn-primaryAction">Learn More</a></p>
+                <p><a href="rooms.php" class="btn-primaryAction">Learn More</a></p>
               </div><!-- /caption -->
             </div><!-- /thumbnail -->
             </div><!-- /carousel-caption -->

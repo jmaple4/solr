@@ -38,7 +38,7 @@
         </div>
         <!-- /row -->
         
-        <form role="form" action="http://forms.brace.io/jmaple4@gmail.com" method="post">
+        <form role="form" action="http://forms.brace.io/info@solove.us" method="post">
         <div class="row">
             <div class="col-sm-6">
                 <p>Ready to apply? Let us know a little bit about yourself and we'll give you an application.</p>
@@ -65,7 +65,7 @@
                     <textarea class="form-control" id="textBox" rows="5" placeholder="Any additional details you want to mention" name="comments"></textarea>
                   </div>
                   <input type="hidden" name="_subject" value="Solr: Application Downloaded" />
-                  <input type="hidden" name="_next" value="//concretewind.com/test/solr/application-success.php" />
+                  <input type="hidden" name="_next" value="//solove.us/application-success.php" />
                   <button type="submit" class="btn-primaryAction">Request Application</button>
             </div><!-- /col-6 -->
         </div>

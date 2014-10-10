@@ -44,7 +44,7 @@
         </div> -->
         <!-- /row -->
 
-        <form role="form" action="http://forms.brace.io/jmaple4@gmail.com" method="post">
+        <form role="form" action="http://forms.brace.io/info@solove.us" method="post">
         <div class="row">
             <div class="col-sm-6">
                 <p>To schedule a tour, provide some basic information about yourself and we'll get back to you about a good time to take a tour.</p>
@@ -71,7 +71,7 @@
                     <textarea class="form-control" id="textBox" rows="5" placeholder="Any additional details you want to mention" name="comments"></textarea>
                   </div>
                   <input type="hidden" name="_subject" value="Solr: Request for a Tour" />
-                  <input type="hidden" name="_next" value="//concretewind.com/test/solr/tour-success.php" />
+                  <input type="hidden" name="_next" value="//solove.us/tour-success.php" />
                   <button type="submit" class="btn-primaryAction">Request Tour</button>
             </div><!-- /col-6 -->
         </div>
