@@ -88,6 +88,13 @@
                         <p>At the Summer of LOVE, we believe that cleanliness is next to, well happiness. Our incredible housekeeping staff works hard to maintain the building and its facilities clean and disinfected. We recognize the need for sanitary conditions and spare no time ensuring all surfaces are cleaned with the best green commercial cleaning products. You can rest assured the Summer of LOVE is as clean as it is cool.</p>
                     </div> <!-- /media-body -->
                 </div><!-- /media -->
+                <div class="media">
+                    <i class="pull-left icon-cube"></i>
+                    <div class="media-body">
+                        <h4 class="media-heading">Mini Refrigerator in every room</h4>
+                        <p>SOL recognizes the need for keeping some food on hand. We provide our guest with a mini fridge in each room for your convenience. Beverages and other perishable are better kept in your room.</p>
+                    </div> <!-- /media-body -->
+                </div><!-- /media -->
             </div><!-- /col-6 -->
 
 
@@ -131,6 +138,13 @@
                     </div> <!-- /media-body -->
                 </div><!-- /media -->
                 <div class="media">
+                    <img src="assets/img/radio-logo.png" width="50" height="50" class="pull-left" />
+                    <div class="media-body">
+                        <h4 class="media-heading">Radio City Radio Station</h4>
+                        <p>The Summer of Love has music. In fact we have our own radio station through Music City San Francisco. Music City Radio showcases the best in up front, cutting edge talent from Bay Area musicians, many of whom rehearse and perform at our Music City Rehearsal Studios. Want to know what's happening at some of San Francisco's best clubs? Tune in for 24/7 streaming music across all styles and genres that you can also go out and see live. Music City Radio combines the best of New Music Underground with the Classic San Francisco sound! Check it out!</p>
+                    </div> <!-- /media-body -->
+                </div><!-- /media -->
+                <div class="media">
                     <i class="pull-left icon-camera"></i>
                     <div class="media-body">
                         <h4 class="media-heading">Common Area Camera System</h4>
@@ -144,13 +158,7 @@
                         <p>Busses, shuttles and Taxis are right at your door step. As if  there just for you, access to the #2 Clement, #3Jackson, #27Bryant, #38Geary, #38L Geary Limited, #19Polk, Post &amp; Hyde, Leavenworth &amp; Post, Geary &amp; Leavenworth, Muni Bus Routes along with the Academy of Art University Shuttle all stop just a few feet from your front door.</p>
                     </div> <!-- /media-body -->
                 </div><!-- /media -->
-                <div class="media">
-                    <i class="pull-left icon-cube"></i>
-                    <div class="media-body">
-                        <h4 class="media-heading">Mini Refrigerator in every room</h4>
-                        <p>SOL recognizes the need for keeping some food on hand. We provide our guest with a mini fridge in each room for your convenience. Beverages and other perishable are better kept in your room.</p>
-                    </div> <!-- /media-body -->
-                </div><!-- /media -->
+                
             </div><!-- /col-6 -->
         </div>
         <!-- /row -->

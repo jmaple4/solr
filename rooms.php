@@ -42,7 +42,7 @@
                 <div class="media">
                     <div class="media-body">
                         <h4 class="media-heading">Quad Rooms</h4>
-                        <img data-src="holder.js/580x200/#777:#444/text:580x200 Image needed" class="roomImage img-responsive" alt="placeholder image">
+                        <!-- <img data-src="holder.js/580x200/#777:#444/text:580x200 Image needed" class="roomImage img-responsive" alt="placeholder image"> -->
                         <p>Starting at just $575/Mo, the SOL Quad is the least expensive option we offer and is perfect for short term stays. Well suited for a 3 - 9 month stay, it’s perfect for a busy student with a job. It has 2 sets of bunk beds for up to 4 roomies.</p>
                         <span class="priceBlock">
                             <span class="pricePoint">$575</span>
@@ -54,7 +54,7 @@
                 <div class="media">
                     <div class="media-body">
                         <h4 class="media-heading">Triple Rooms</h4>
-                        <img data-src="holder.js/580x200/#777:#444/text:580x200 Image needed" class="roomImage img-responsive" alt="placeholder image">
+                        <!-- <img data-src="holder.js/580x200/#777:#444/text:580x200 Image needed" class="roomImage img-responsive" alt="placeholder image"> -->
                         <p>Starting at just $675/Mo, the SOL Triple is a great option for the price and is suitable for students who require a little more space. A trip has a bunk bed and one bed over desk and sleeps a total of 3 people.</p>
                         <span class="priceBlock">
                             <span class="pricePoint">$675</span>
@@ -73,11 +73,11 @@
                 <div class="media">
                     <div class="media-body">
                         <h4 class="media-heading">Garden Rooms</h4>
-                        <img src="assets/img/photos/room-garden.jpg" class="roomImage img-responsive" alt="garden cottage">
+                        <!-- <img src="assets/img/photos/room-garden.jpg" class="roomImage img-responsive" alt="garden cottage"> -->
                         <p>WOW!! You must see a Cottage Unit at the Summer of Love Student Housing. Starting at just $975.00, these bungalow style units are a must see. Newly built and super cool the Cottages are only shared between 6 - 9 people but are BIG, have their own bathrooms, showers, kitchens, and more. Check them out!</p>
                         <span class="priceBlock disclaimer">
                             <span class="tag">Starting At</span>
-                            <span class="pricePoint">$814</span>
+                            <span class="pricePoint">$795</span>
                             <span class="dateUnit">/mo</span>
                         </span>
                         <a href="application.php" class="btn-primaryAction">Apply to Rent</a>
@@ -86,7 +86,7 @@
                 <div class="media">
                     <div class="media-body">
                         <h4 class="media-heading">Double Rooms</h4>
-                        <img data-src="holder.js/580x200/#777:#444/text:580x200 Image needed" class="roomImage img-responsive" alt="placeholder image">
+                        <!-- <img data-src="holder.js/580x200/#777:#444/text:580x200 Image needed" class="roomImage img-responsive" alt="placeholder image"> -->
                         <p>Starting at just $875/Mo, double rooms are the best option for those who want more room and less people. Ultimately you'll have more storage and living area shared with only one other person. </p>
                         <span class="priceBlock">
                             <span class="pricePoint">$875</span>

@@ -50,7 +50,7 @@
                 </div>
                 <!-- /col -->
                 <div class="col-sm-3">
-                    <h5>Navigate thie site</h5>
+                    <h5>Navigate the site</h5>
                     <ul class="siteLinks">
                         <li><a href="index.php">Home</a>
                         </li>

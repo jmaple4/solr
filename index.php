@@ -110,7 +110,7 @@
                 <li>and Cool Design</li>
                 </ul>
 
-                <a href="#" class="btn-primaryAction">Call for Availability</a>
+                <a href="rooms.php" class="btn-primaryAction">Learn More</a>
             </div>
             <div class="col-sm-6">
                 <img src="assets/img/photos/common-room.jpg" width="500" height="333" class="img-responsive featureImg" title="Common Room" />

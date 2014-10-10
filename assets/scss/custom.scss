@@ -41,11 +41,150 @@ body {
     font-weight: normal;
     font-style: normal;
 }
-
 $font-thin:  'helvetica_thin', helvetica, arial, sans-serif;
 $font-bold:  'helvetica_bold', helvetica, arial, sans-serif;
 // exmple: font-family: $font-thin;
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon.eot?5kiiej');
+    src:url('../fonts/icomoon.eot?#iefix5kiiej') format('embedded-opentype'),
+        url('../fonts/icomoon.woff?5kiiej') format('woff'),
+        url('../fonts/icomoon.ttf?5kiiej') format('truetype'),
+        url('../fonts/icomoon.svg?5kiiej#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check-2:before {
+    content: "\e618";
+}
+.icon-map-marker:before {
+    content: "\e614";
+}
+.icon-paint-brush:before {
+    content: "\e615";
+}
+.icon-bus:before {
+    content: "\e613";
+}
+.icon-coffee:before {
+    content: "\e60d";
+}
+.icon-housekeeping:before {
+    content: "\e60e";
+}
+.icon-measuring-cup:before {
+    content: "\e60f";
+}
+.icon-microphone:before {
+    content: "\e610";
+}
+.icon-wifi:before {
+    content: "\e611";
+}
+.icon-chevron-prev:before {
+    content: "\e604";
+}
+.icon-chevron-next:before {
+    content: "\e60c";
+}
+.icon-building:before {
+    content: "\e60b";
+}
+.icon-connect-email:before {
+    content: "\e608";
+}
+.icon-connect-facebook:before {
+    content: "\e609";
+}
+.icon-connect-yelp:before {
+    content: "\e60a";
+}
+.icon-bed:before {
+    content: "\e606";
+}
+.icon-footsteps:before {
+    content: "\e607";
+}
+.icon-bicycle:before {
+    content: "\e612";
+}
+.icon-home:before {
+    content: "\e602";
+}
+.icon-office:before {
+    content: "\e603";
+}
+.icon-wifi2:before {
+    content: "\e601";
+}
+.icon-library:before {
+    content: "\e617";
+}
+.icon-file:before {
+    content: "\e600";
+}
+.icon-users:before {
+    content: "\e616";
+}
+.icon-checkmark-circle:before {
+    content: "\e605";
+}
+.icon-arrow-right:before {
+    content: "\e619";
+}
+.icon-envelope-o:before {
+    content: "\f003";
+}
+.icon-check:before {
+    content: "\f00c";
+}
+.icon-clock-o:before {
+    content: "\f017";
+}
+.icon-lock:before {
+    content: "\f023";
+}
+.icon-book:before {
+    content: "\f02d";
+}
+.icon-camera:before {
+    content: "\f030";
+}
+.icon-map-marker2:before {
+    content: "\f041";
+}
+.icon-leaf:before {
+    content: "\f06c";
+}
+.icon-calendar:before {
+    content: "\f073";
+}
+.icon-phone:before {
+    content: "\f095";
+}
+.icon-coffee2:before {
+    content: "\f0f4";
+}
+.icon-smile-o:before {
+    content: "\f118";
+}
+.icon-cube:before {
+    content: "\f1b2";
+}
 .modal-content {
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
@@ -445,6 +584,7 @@ label {
         position: absolute;
         top: 10px;
     }
+    .item2 .logoBranding {top: 150px;}
 .heroBlock .logoBranding {right: 10px;}
 .carousel-inner .logoBranding {left: 30px;}
 .page-rooms .logoBranding,
