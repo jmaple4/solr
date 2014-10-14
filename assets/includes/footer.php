@@ -28,7 +28,7 @@
                 <div class="col-sm-3">
                     <h5>Connect</h5>
                     <ul class="majorLinks">
-                        <li><a href="https://www.facebook.com/groups/summerofloveresidences/" target="_blank"><i class="icon-connect-facebook"></i> <span>Facebook</span></a>
+                        <li><a href="https://www.facebook.com/SummerOfLoveSF" target="_blank"><i class="icon-connect-facebook"></i> <span>Facebook</span></a>
                         </li>
                         <li><a href="http://www.yelp.com/biz/summer-of-love-residences-san-francisco" target="_blank"><i class="icon-connect-yelp"></i> <span>Yelp</span></a>
                         </li>

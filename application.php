@@ -60,9 +60,13 @@
 
 
             <div class="col-sm-6">
+            <div class="form-group">
+                    <label for="school">What school are you attending?</label>
+                    <input type="text" class="form-control" id="school" placeholder="Enter school name" name="school">
+                  </div>
                  <div class="form-group">
                     <label for="textBox">Additional Details</label>
-                    <textarea class="form-control" id="textBox" rows="5" placeholder="Any additional details you want to mention" name="comments"></textarea>
+                    <textarea class="form-control" id="textBox" rows="3" placeholder="Any additional details you want to mention" name="comments"></textarea>
                   </div>
                   <input type="hidden" name="_subject" value="Solr: Application Downloaded" />
                   <input type="hidden" name="_next" value="//solove.us/application-success.php" />
